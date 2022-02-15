@@ -7,12 +7,11 @@
     height: 100%;
     font-size: 40px;
 }
-.logo{
-    font-size: 22px;
-}
+
 #navigation ul li{
-    font-size: 25px;
+    /* font-size: 25px; */
     padding: 40px 15px;
+    margin: 15px;
 
 }
 
@@ -23,7 +22,7 @@
    width: 45px;
    position: fixed;
    top: 30px;
-   left: 145px;
+   left: 300px;
    display: flex;
    justify-content: center;
    align-items: center;
@@ -55,7 +54,7 @@
 /* my skill section */
 
 #skill::before{
-    height: 1588px;
+    height: 100%;
     width: 985px;
 }
 
@@ -64,28 +63,31 @@
     flex-wrap: wrap;
 }
 
+
 /* contact section */
 
 
 #contact::before{
-    height: 1238px;
+    height: 100%;
     width: 985px;
 }
+#contact form{
+    width: 400px;
+}
+
+
 
 /* utility */
 .h-primary{
     font-size: 100px;
+    width: 600px;
+
 }
 .h-secondary{
-font-size: 30px;
+    font-size: 30px;
+    width: 643px;
 
 }
 #profile h1 span{
-    font-size: 150px;
+    font-size: 120px;
 }
-
-
-
-
-
-
