@@ -18,7 +18,7 @@ function myFun() {
     let y = document.getElementById("navigation");
     if (y.style.display === "none") {
       y.style.display = "block";
-      a.style.left = "150px";
+      a.style.left = "300px";
       b.style.marginLeft = "230px";
       c.style.marginLeft = "230px";
       d.style.marginLeft = "230px";
