@@ -3,16 +3,19 @@
 /* navbar section */
 #navigation{
     height: 100%;
-    font-size: 40px;
+    /* font-size: 40px; */
+    font-size: 55px;
+    width: 40%;
 }
 
 .logo{
-    font-size: 22px;
+    font-size: 55px;
 }
 
 #navigation ul li{
-    font-size: 25px;
+    font-size: 55px;
     padding: 40px 15px;
+    /* margin: 45px; */
 
 }
 
@@ -24,7 +27,7 @@
    width: 45px;
    position: fixed;
    top: 30px;
-   left: 145px;
+   left: 300px;
    display: flex;
    justify-content: center;
    align-items: center;
@@ -45,7 +48,7 @@
 /* profile section */
 
 #profile::before{
-    height: 1380px;
+    height: 100%;
 }
 
 /* about section */
@@ -53,7 +56,7 @@
 
 /* my skill section */
 #skill::before{
-    height: 1596px;
+    height: 75%;
 }
 
 /* project section */
@@ -74,5 +77,3 @@ font-size: 30px;
 #profile h1 span{
     font-size: 150px;
 }
-
-
