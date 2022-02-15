@@ -5,15 +5,15 @@
 /* navbar section */
 #navigation{
     height: 100%;
-    font-size: 40px;
+    font-size: 60px;
 }
 
 .logo{
-    font-size: 22px;
+    font-size: 60px;
 }
 
 #navigation ul li{
-    font-size: 25px;
+    font-size: 60px;
     padding: 40px 15px;
 }
 
@@ -24,7 +24,7 @@
     width: 45px;
     position: fixed;
     top: 30px;
-    left: 145px;
+    left: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -71,7 +71,7 @@
 }
 
 #skill::before{
-    height: 1730px;
+    height: 1860px;
     width: 985px;
 }
 
@@ -81,6 +81,10 @@
     width: 500px;
 }
 
+#project h1{
+    width: 600px;
+}
+
 /* contact section */
 #contact{
     flex-wrap: wrap;
@@ -88,7 +92,7 @@
 }
 
 #contact::before{
-    height: 1290px;
+    height: 1370px;
     width: 985px;
 }
 
@@ -96,10 +100,15 @@
     width: 400px;
 }
 
+#contact h1{
+    width: 617px;
+}
+
 
 /* utility */
 .h-primary{
     font-size: 100px;
+    /* width: 100px; */
 }
 .h-secondary{
     font-size: 30px;
@@ -109,11 +118,3 @@
     font-size: 130px;
 }
     
-
-
-
-
-
-
-
-
